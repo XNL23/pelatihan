@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio resmi: Mahasiswa Universitas Telkom & Alumni SMK 3 Perguruan Cikini. Rekam jejak Praktik Kerja Lapangan (PKL), Uji Kompetensi Keahlian (UKK), dan keahlian teknis.">
+  <meta name="keywords" content="Universitas Telkom, SMK 3 Perguruan Cikini, portofolio mahasiswa, PKL, UKK, portofolio profesional">
+  <meta name="author" content="Portofolio Pribadi">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Portofolio | Mahasiswa Universitas Telkom & Alumni SMK 3 Perguruan Cikini">
+  <meta property="og:description" content="Portofolio profesional: Pengalaman Praktik Kerja Lapangan (PKL), Uji Kompetensi Keahlian (UKK), dan profil pendidikan.">
+  <meta property="og:image" content="assets/images/profile.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%232563eb'/><text y='.9em' x='50%' font-size='56' text-anchor='middle' fill='white' font-family='sans-serif' dy='18'>TU</text></svg>">
+
+  <title>Portofolio Pribadi | Mahasiswa Universitas Telkom</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Ambient Glow Background -->
+  <div class="ambient-glow ambient-glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow-2" aria-hidden="true"></div>
+  <div class="cyber-grid-overlay" aria-hidden="true"></div>
+
+  <!-- =================================================================
+       NAVBAR
+       ================================================================= -->
+  <header class="navbar" id="main-nav">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Beranda Portofolio">
+        <div class="brand-symbol">T</div>
+        <div class="brand-text">Portfolio<span>.pro</span></div>
+      </a>
+
+      <!-- Navigation Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero" class="nav-link active">Beranda</a></li>
+        <li><a href="#education" class="nav-link">Pendidikan</a></li>
+        <li><a href="#experience" class="nav-link">Pengalaman & PKL</a></li>
+        <li><a href="#skills" class="nav-link">Keahlian</a></li>
+        <li><a href="#contact" class="nav-link">Kontak</a></li>
+      </ul>
+
+      <!-- Navigation Actions -->
+      <div class="nav-actions">
+        <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" title="Ganti Tema (Dark / Light)" aria-label="Ganti mode tema">
+          <span id="theme-icon">☀️</span>
+        </button>
+
+        <a href="#contact" class="btn btn-primary btn-sm">
+          <span>Hubungi Saya</span>
+        </a>
+
+        <button type="button" class="hamburger-btn" id="hamburger-btn" aria-label="Toggle menu navigasi">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =================================================================
+         HERO SECTION
+         ================================================================= -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="status-pill">
+            <span class="pulse-dot"></span>
+            <span>Mahasiswa Aktif Universitas Telkom • Alumni SMK 3 Perguruan Cikini</span>
+          </div>
+
+          <p class="hero-greeting">Halo, selamat datang di portofolio saya</p>
+          <h1 class="hero-title">
+            Membangun Masa Depan Melalui <span class="gradient-text">Dedikasi & Keahlian</span>
+          </h1>
+
+          <div class="typewriter-wrapper">
+            <h2 class="section-tag" style="margin-bottom:0; font-size:1.1rem; border-color:transparent; background:transparent; padding:0;">
+              <span id="typewriter-text"></span>
+              <span class="typewriter-cursor">|</span>
+            </h2>
+          </div>
+
+          <p class="hero-bio">
+            Mahasiswa aktif Universitas Telkom dengan latar belakang pendidikan kejuruan dari SMK 3 Perguruan Cikini. Memiliki pengalaman praktis industri melalui Praktik Kerja Lapangan (PKL), sertifikasi Uji Kompetensi Keahlian (UKK), dan motivasi tinggi untuk terus berkembang.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#experience" class="btn btn-primary">
+              <span>Lihat Pengalaman & PKL</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#education" class="btn btn-secondary">
+              <span>Riwayat Pendidikan</span>
+            </a>
+            <button type="button" class="btn btn-secondary" id="copy-email-btn" data-email="emailanda@telkomuniversity.ac.id" title="Salin Email">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              <span>Salin Email</span>
+            </button>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-number">Telkom<span>.Univ</span></div>
+              <div class="stat-label">Pendidikan Tinggi</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">SMK 3<span>.Percik</span></div>
+              <div class="stat-label">Pondasi Kejuruan</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">PKL &<span> UKK</span></div>
+              <div class="stat-label">Pengalaman Teruji</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Avatar Visual Card with University & School Logos -->
+        <div class="hero-visual reveal">
+          <div class="hero-image-wrapper">
+            <div class="hero-image-inner">
+              <img src="assets/images/profile.jpg" alt="Foto Profil" width="400" height="420" loading="eager">
+            </div>
+
+            <!-- Floating Badge: Telkom University -->
+            <div class="floating-badge badge-top-left">
+              <div class="badge-icon">
+                <img src="assets/images/logos/telkom-university.png" alt="Logo Telkom University">
+              </div>
+              <div class="badge-info">
+                <h4>Universitas Telkom</h4>
+                <p>Mahasiswa Aktif</p>
+              </div>
+            </div>
+
+            <!-- Floating Badge: SMK 3 Perguruan Cikini -->
+            <div class="floating-badge badge-bottom-right">
+              <div class="badge-icon">
+                <img src="assets/images/logos/smk3-perguruan-cikini.jpg" alt="Logo SMK 3 Perguruan Cikini">
+              </div>
+              <div class="badge-info">
+                <h4>SMK 3 Perguruan Cikini</h4>
+                <p>Alumni Kejuruan</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         EDUCATION SECTION WITH OFFICIAL LOGOS
+         ================================================================= -->
+    <section id="education">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+            Jejak Studi
+          </div>
+          <h2 class="section-title">Riwayat <span class="gradient-text">Pendidikan Resmi</span></h2>
+          <p class="section-desc">Institusi pendidikan tempat saya menimba ilmu, mengasah kompetensi, dan membangun karakter profesional.</p>
+        </div>
+
+        <div class="education-cards-grid">
+          <!-- Card 1: Universitas Telkom -->
+          <div class="education-card reveal">
+            <div class="edu-logo-wrapper">
+              <img src="assets/images/logos/telkom-university.png" alt="Logo Resmi Universitas Telkom" loading="lazy">
+            </div>
+            <div class="edu-details">
+              <span class="edu-badge badge-active">Sedang Menempuh Pendidikan</span>
+              <h3 class="edu-institution">Universitas Telkom (Telkom University)</h3>
+              <p class="edu-major">Program Studi / Fakultas Terkait Teknologi & Bisnis</p>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.75rem; line-height: 1.6;">
+                Saat ini aktif menjalani perkuliahan di salah satu perguruan tinggi berbasis teknologi informasi terbaik di Indonesia, memperdalam wawasan analitis, kolaborasi riset, dan kompetensi masa depan.
+              </p>
+              <span class="edu-period">📅 Mahasiswa Aktif</span>
+            </div>
+          </div>
+
+          <!-- Card 2: SMK 3 Perguruan Cikini -->
+          <div class="education-card reveal">
+            <div class="edu-logo-wrapper">
+              <img src="assets/images/logos/smk3-perguruan-cikini.jpg" alt="Logo Resmi SMK 3 Perguruan Cikini" loading="lazy">
+            </div>
+            <div class="edu-details">
+              <span class="edu-badge badge-alumni">Lulusan / Alumni</span>
+              <h3 class="edu-institution">SMK 3 Perguruan Cikini (Percik)</h3>
+              <p class="edu-major">Sekolah Menengah Kejuruan Berbasis Disiplin & Keterampilan</p>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.75rem; line-height: 1.6;">
+                Menyelesaikan pendidikan kejuruan dengan fondasi teknis yang kuat, kedisiplinan berstandar industri, sukses menyelesaikan masa Praktik Kerja Lapangan (PKL), dan lulus Uji Kompetensi Keahlian (UKK).
+              </p>
+              <span class="edu-period">📅 Alumni Terverifikasi</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         EXPERIENCE SECTION (PKL & UKK)
+         ================================================================= -->
+    <section id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+            Praktik Lapangan & Kompetensi
+          </div>
+          <h2 class="section-title">Pengalaman <span class="gradient-text">PKL & Sertifikasi UKK</span></h2>
+          <p class="section-desc">Pengalaman nyata di lingkungan kerja industri dan pembuktian uji kompetensi terstandarisasi saat masa pendidikan SMK.</p>
+        </div>
+
+        <div class="experience-cards-grid">
+          <!-- Card 1: Pengalaman PKL -->
+          <article class="exp-card reveal">
+            <div class="exp-photo-slot">
+              <span class="photo-overlay-tag">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+                Dokumentasi PKL
+              </span>
+              <img src="assets/images/pengalaman-pkl.jpg" alt="Foto Pengalaman Praktik Kerja Lapangan (PKL)" loading="lazy">
+              <span class="photo-hint-pill">📁 assets/images/pengalaman-pkl.jpg</span>
+            </div>
+
+            <div class="exp-body">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-title">Praktik Kerja Lapangan (PKL)</h3>
+                  <div class="exp-company">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="4"></rect><path d="M8 12h8M12 8v8"/></svg>
+                    <span>Pengalaman Magang Industri • SMK 3 Perguruan Cikini</span>
+                  </div>
+                </div>
+                <span class="exp-period">Periode PKL</span>
+              </div>
+
+              <p class="exp-desc">
+                Menjalani masa Praktik Kerja Lapangan secara langsung di dunia usaha/industri untuk mengaplikasikan ilmu kejuruan dalam alur kerja profesional.
+              </p>
+
+              <ul class="exp-points">
+                <li>Terlibat langsung dalam operasional harian dan prosedur standar operasional (SOP) perusahaan.</li>
+                <li>Menyelesaikan tugas teknis dan pemecahan masalah (troubleshooting) secara disiplin dan tepat waktu.</li>
+                <li>Membangun komunikasi kerja profesional dan koordinasi aktif bersama tim pembimbing lapangan.</li>
+                <li>Menyusun laporan pertanggungjawaban kegiatan PKL dengan evaluasi bernilai sangat memuaskan.</li>
+              </ul>
+
+              <div class="exp-skills">
+                <span class="skill-tag">Etika Kerja Industri</span>
+                <span class="skill-tag">Penyelesaian Masalah</span>
+                <span class="skill-tag">Kerja Tim</span>
+                <span class="skill-tag">Disiplin SOP</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Pengalaman UKK -->
+          <article class="exp-card reveal">
+            <div class="exp-photo-slot">
+              <span class="photo-overlay-tag" style="color: #34d399;">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                Ujian Kompetensi Keahlian
+              </span>
+              <img src="assets/images/pengalaman-ukk.jpg" alt="Foto Pengalaman Ujian Sertifikasi Kompetensi (UKK)" loading="lazy">
+              <span class="photo-hint-pill">📁 assets/images/pengalaman-ukk.jpg</span>
+            </div>
+
+            <div class="exp-body">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-title">Uji Kompetensi Keahlian (UKK)</h3>
+                  <div class="exp-company">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    <span>Standar Nasional & Penguji Asesor Kejuruan</span>
+                  </div>
+                </div>
+                <span class="exp-period">Kelulusan Kompetensi</span>
+              </div>
+
+              <p class="exp-desc">
+                Pelaksanaan ujian praktik komprehensif untuk mengukur pencapaian standar kompetensi lulusan kejuruan di hadapan tim penguji internal dan asesor eksternal.
+              </p>
+
+              <ul class="exp-points">
+                <li>Melakukan pengujian praktik sesuai kisi-kisi standar kompetensi kerja nasional.</li>
+                <li>Mempersiapkan perencanaan teknis, alat kerja, dan demonstrasi hasil karya secara mandiri.</li>
+                <li>Mempresentasikan hasil pengujian dan menjawab pertanyaan evaluatif dari asesor dengan percaya diri.</li>
+                <li>Dinyatakan kompeten dengan sertifikat resmi pendamping ijazah kejuruan.</li>
+              </ul>
+
+              <div class="exp-skills">
+                <span class="skill-tag">Uji Praktik Teknis</span>
+                <span class="skill-tag">Standar Kompetensi</span>
+                <span class="skill-tag">Presentasi Karya</span>
+                <span class="skill-tag">Sertifikasi Kejuruan</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- College Experience Status (Sesuai Permintaan: Belum Ada Pengalaman Kuliah) -->
+        <div class="college-status-banner reveal">
+          <div class="college-status-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          </div>
+          <div class="college-status-text">
+            <h4>Status Pengalaman Perkuliahan</h4>
+            <p>
+              Saat ini saya sedang memfokuskan diri pada masa awal studi akademik di Universitas Telkom. Halaman ini akan diperbarui seiring berjalannya keterlibatan dalam proyek mata kuliah, organisasi kampus, laboratorium riset, serta magang di masa perkuliahan mendatang.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         SKILLS & COMPETENCY MATRIX
+         ================================================================= -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            Keahlian & Karakter
+          </div>
+          <h2 class="section-title">Kompetensi Teknis & <span class="gradient-text">Soft Skills</span></h2>
+          <p class="section-desc">Kombinasi bekal kemampuan praktis dari SMK dan pengembangan wawasan akademik di Universitas Telkom.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Card 1: Teknis & Kejuruan -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <h3 class="category-title">Kompetensi Kejuruan</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="skill-chip"><span class="chip-dot"></span>Praktik Kerja Standar SOP</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Troubleshooting & Perbaikan</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Pemahaman Alur Kerja Teknis</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Penyusunan Laporan Praktik</span>
+              <span class="skill-chip"><span class="chip-dot"></span>K3 (Keselamatan Kerja)</span>
+            </div>
+          </div>
+
+          <!-- Card 2: Produktivitas & Tools Digital -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon" style="background: rgba(2, 132, 199, 0.12); color: #0284c7;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+              </div>
+              <h3 class="category-title">Produktivitas Digital</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="skill-chip"><span class="chip-dot"></span>Microsoft Office (Word, Excel, PPT)</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Google Workspace</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Pencarian & Riset Informasi</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Manajemen File & Berkas</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Dasar Komputer & Internet</span>
+            </div>
+          </div>
+
+          <!-- Card 3: Karakter & Soft Skills -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon" style="background: rgba(16, 185, 129, 0.12); color: #10b981;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+              </div>
+              <h3 class="category-title">Sikap & Kolaborasi</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="skill-chip"><span class="chip-dot"></span>Kedisiplinan & Ketepatan Waktu</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Kemampuan Bekerja Sama</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Kemauan Belajar Cepat</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Komunikasi Efektif</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Tanggung Jawab Tinggi</span>
+            </div>
+          </div>
+
+          <!-- Card 4: Bahasa & Komunikasi -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon" style="background: rgba(245, 158, 11, 0.12); color: #f59e0b;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+              </div>
+              <h3 class="category-title">Bahasa</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="skill-chip"><span class="chip-dot"></span>Bahasa Indonesia (Penutur Asli / Fasih)</span>
+              <span class="skill-chip"><span class="chip-dot"></span>Bahasa Inggris (Dasar & Menengah)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         CONTACT SECTION
+         ================================================================= -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            Hubungi
+          </div>
+          <h2 class="section-title">Mari Terhubung & <span class="gradient-text">Berdiskusi</span></h2>
+          <p class="section-desc">Terbuka untuk kesempatan magang, proyek kolaborasi, maupun diskusi akademik.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Direct Channels -->
+          <div class="contact-info-panel reveal">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div class="contact-meta">
+                <span>Email Akademik / Pribadi</span>
+                <a href="mailto:emailanda@telkomuniversity.ac.id">emailanda@telkomuniversity.ac.id</a>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon" style="background: rgba(16, 185, 129, 0.12); color: #10b981;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div class="contact-meta">
+                <span>WhatsApp / Telepon</span>
+                <a href="https://wa.me/6281234567890" target="_blank" rel="noopener">+62 812-xxxx-xxxx</a>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon" style="background: rgba(37, 99, 235, 0.12); color: var(--accent-blue);">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div class="contact-meta">
+                <span>Lokasi Kampus / Domisili</span>
+                <p>Bandung / Jakarta, Indonesia</p>
+              </div>
+            </div>
+
+            <div style="margin-top: 0.5rem;">
+              <h4 style="font-size: 0.85rem; margin-bottom: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em;">Tautan Jejaring Sosial:</h4>
+              <div class="social-links">
+                <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-link" title="LinkedIn">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noopener" class="social-link" title="Instagram">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener" class="social-link" title="GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-card reveal">
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="sender-name" class="form-label">Nama Anda *</label>
+                <input type="text" id="sender-name" class="form-control" placeholder="Masukkan nama Anda" required>
+              </div>
+
+              <div class="form-group">
+                <label for="sender-email" class="form-label">Alamat Email *</label>
+                <input type="email" id="sender-email" class="form-control" placeholder="email@domain.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="sender-subject" class="form-label">Subjek Pesan</label>
+                <input type="text" id="sender-subject" class="form-control" placeholder="Peluang Magang / Diskusi Proyek">
+              </div>
+
+              <div class="form-group">
+                <label for="sender-message" class="form-label">Pesan *</label>
+                <textarea id="sender-message" class="form-control" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <span>Kirim Pesan Sekarang</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =================================================================
+       FOOTER
+       ================================================================= -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-copy">
+        © 2024 — 2026 <strong>Mahasiswa Universitas Telkom</strong> • Alumni <strong>SMK 3 Perguruan Cikini</strong>.
+      </div>
+      <button type="button" class="scroll-top-btn" id="back-to-top" title="Kembali ke Atas" aria-label="Scroll ke atas">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+      </button>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
